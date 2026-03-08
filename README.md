@@ -1,10 +1,14 @@
 # HackthonBU-2026
 PromptShield : Interactive Privacy-Preserving Prompt Sanitizer
 An interactive prompt privacy filter that detects sensitive information in user prompts, highlights it visually, and lets users choose how each item should be transformed.
+
+<img width="580" height="763" alt="PromptShield" src="https://github.com/user-attachments/assets/6f667de8-0684-41c4-b5a7-36f0a65bb458" />
+
 ## Inspiration
 People use AI chats a lot nowadays, and some conversation include sensitive information that needs privacy protection. I am thinking of creating a local tool to filter the prompt before sending to global AI chats.
 ## What it does
-My filter tool can take the prompt and highlight the sensitive information by category visually with color, then users have their choice how they want them to be transformed, such as keep them, replace with other words, generalize them. The tool can also measure the risk score of privacy leakage before and after the filtering work, and it can further tell how much meaning is preserved after the filtering.
+My filter tool can take the prompt and highlight the sensitive infor![Uploading PromptShield.png…]()
+mation by category visually with color, then users have their choice how they want them to be transformed, such as keep them, replace with other words, generalize them. The tool can also measure the risk score of privacy leakage before and after the filtering work, and it can further tell how much meaning is preserved after the filtering.
 ## How we built it
 I built this tool by coding in python for the backend and frontend.
 ## Challenges we ran into
