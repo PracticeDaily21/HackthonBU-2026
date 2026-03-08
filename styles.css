@@ -1,0 +1,6 @@
+cat > src/styles.css <<'EOF'
+body {
+  margin: 0;
+  background: #f6f7fb;
+}
+EOF
